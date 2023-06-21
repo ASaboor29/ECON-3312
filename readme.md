@@ -1,13 +1,14 @@
-# Predciting Heart Stroke Using Machine Learning Algorithm
+# ECON- 3313 Predicting Heart Stroke Using Machine Learning
 
-- We are developing this model to diagnose stroke on early stages depending on the features like hypertension, average glucose level, bmi, age so that the preventive measures could be taken or in extreme risk cases start medical treatment.
+We are developing this model to diagnose stroke on early stages depending on the features like hypertension, average glucose level, bmi, age so that the preventive measures could be taken or in extreme risk cases start medical treatment.
+
 - Another approach was to utilize this data which is present in every hospital database to anaylze trends and get statistics to be used by government policy-making department so that more attention is given to government hospitals (alloting more health budget, providing advance machinery for the treatment of such cases)
 
 ## Libraries ued are as following :
 
 #Importing all essential libraries for project
 !pip install pandas_profiling
-!jupyter nbextension enable toc2/main
+!jupyter nbextension enable toc2/main.
 
 #Libraries used for EDA
 import os
@@ -45,3 +46,5 @@ from sklearn.svm import SVC
 
 #Mounting drive on
 drive.mount('/gdrive')
+
+### This model is trained on seven different Machine Learning Models but the best performing one is the RandomForestClassifier with 97% accuracy.
